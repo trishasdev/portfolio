@@ -1,16 +1,83 @@
-# React + Vite
+# 🌟 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern portfolio website built with React and Vite to showcase my projects, technical skills, and experience in software development.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio serves as a central place to highlight my work in web development, mobile applications, real-time communication systems, and user-focused software solutions.
 
-## React Compiler
+The website features information about my background, professional experience, featured projects, and contact details, all presented through a responsive and modern user interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Responsive modern design
+* Interactive landing page
+* About Me section
+* Featured project showcase
+* Contact section with professional links
+* Fast performance powered by Vite
+* Component-based architecture using React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Featured Projects
+
+### Indoor Navigation (QR + AR)
+
+A navigation system that combines QR-code positioning, mobile sensors, and AR-style guidance to help users navigate indoor spaces.
+
+### Bloop – Social Media App
+
+A social platform featuring posts, user profiles, and chatbot integration using modern web technologies.
+
+### P2P Video Calling (WebRTC)
+
+A peer-to-peer video communication application built using WebRTC, STUN/TURN servers, and Flutter.
+
+## Tech Stack
+
+* React
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/justatree1/portfolio.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Future Improvements
+
+* Project screenshots and live demos
+* Resume download section
+* Additional project showcases
+* Blog or development journal
+* Enhanced animations and interactions
+
+## Contact
+
+Feel free to connect with me through LinkedIn, GitHub, or email.
+
+---
+
+Built with ❤️ using React and Vite.
