@@ -1,0 +1,122 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+/* BODY BACKGROUND */
+body {
+  background: #020617;
+}
+
+/* HERO SECTION */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  /* subtle gradient depth */
+  background: radial-gradient(circle at center, #0a0f2c, #020617);
+}
+
+/* HERO CONTENT */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 650px;
+  padding: 1rem;
+}
+
+/* TAG LINE */
+.tag {
+  font-size: 0.9rem;
+  color: #a1a1aa;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+/* MAIN HEADING */
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* SUBTITLE */
+.subtitle {
+  font-size: 1.1rem;
+  color: #cbd5f5;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* BUTTON BASE */
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+/* PRIMARY BUTTON */
+.btn.primary {
+  background: linear-gradient(135deg, #7c3aed, #3b82f6);
+  color: white;
+}
+
+.btn.primary:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* GHOST BUTTON */
+.btn.ghost {
+  border: 1px solid #a1a1aa;
+  color: #e5e7eb;
+}
+
+.btn.ghost:hover {
+  background: #ffffff10;
+}
+
+/* HERO 3D PLACEHOLDER (optional) */
+.hero-3d {
+  position: relative;
+  z-index: 2;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+}
